@@ -21,7 +21,7 @@ remember to edit the sudoers file with visudo.
 ### Install Packages
 Install packages
 
-   pacman -S < packages.txt 
+    sudo pacman -S < packages.txt 
 
 ### Dotfiles
 
