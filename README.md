@@ -35,6 +35,7 @@ Clone my dotfiles from github, and create the relevant symlinks
     ln -s dotfiles/zshrc ~/.zshrc
     mkdir .config
     ln -s ~/dotfiles/i3 .config/i3
+    ln -s ~/dotfiles/xinitrc .xinitrc
 
 Clean and install vim Plugins
     vim +PlugClean +PlugInstall +qall
